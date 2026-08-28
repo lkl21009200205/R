@@ -1,0 +1,29 @@
+//model_name
+Use the pretrained model from the torchvision.models library in model.py according to name.
+
+//type
+Select the dataset to train or test.
+
+//batch_size
+Number of samples used in each training batch.
+
+//no_models
+Number of clients.
+
+//global_epochs
+Total number of global training rounds.
+
+//k
+Number of clients participating in each training round.
+
+//lr
+Learning rate.
+
+//momentum
+Momentum.
+
+//local_epochs
+Number of local training epochs per client in each round.
+
+//lambda
+Update magnitude for each layer.
